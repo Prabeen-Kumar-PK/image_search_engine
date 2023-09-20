@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <script src="index.js" defer></script>
+    <title>Image Search Engine</title>
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <header>
+      <nav>
+        <div class="logo ">
+          <span>I-Search</span>
+        </div>
+
+       
+        <div >
+          
+          <ul class="hide"  id="menues">
+           
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact US</a></li>
+            <i class="ri-sun-fill" id="theme-icon"></i>
+          
+            <!-- <img src="sun-fill.png"  id="theme-icon"> -->
+          </ul>
+          <i class="ri-menu-3-line" id="bar-icon"></i>
+        </div>
+        
+      </nav>
+    </header>
+
+    <div class="main">
+      <h1>Image Search Engine</h1>
+      <!-- image search box -->
+      <form id="search-form">
+        <input type="text" placeholder="Enter subject" id="search-box" />
+        <button id="search-btn">Search</button>
+      </form>
+
+      <div id="search-results" ></div>
+      <button id="show-more-btn" >Show More</button>
+    </div>
+  </body>
+</html>
